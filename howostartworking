@@ -1,0 +1,17 @@
+how to start working on this repo
+install git
+git configure --global user.name ""
+git configure --global user.email "" 
+
+
+#then create a new repo and  the this git repo
+
+git clone http://xxxxx.git
+
+do the changes there
+git add -A
+git commit -m "message"
+
+git pull origin master
+pit push origin master
+
