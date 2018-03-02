@@ -12,6 +12,21 @@ do the changes there
 git add -A
 git commit -m "message"
 
+
+  git clone https://github.com/gopakumar/datastructures.git
+  ls
+  cd datastructures/
+  touch test.py
+  git add -A
+  git commit -m "This is jsut a test file"
+  git remote -v
+  git init
+  git remote add orgin datastructures.git
+  git push origin master
+
+
+
+
 git pull origin master
 pit push origin master
 
